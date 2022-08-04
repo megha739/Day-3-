@@ -1,3 +1,119 @@
-header{
-    background-color: aqua;
+body{
+    background-color: lightblue
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f0f8ff;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+}
+/* we do not give height to container because it expends top to bottom according to the content */
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+}
+header
+{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    display: flex; /* it makes all the contents align (flex box property ) */
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin: auto;
+    padding: 1px;
+}
+
+article
+{
+    background-color: rgb(228, 231, 201);
+    height: 85vh;
+    text-align: center;
+    display: flex; /* it makes all the contents align */
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: display;
+    margin: auto;
+    padding: 5%;
+}
+.cls1{
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+.imageContainer
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgBox
+{
+    width: 200px;
+    height:200px ;
+    background-color: rgba(14, 15, 15, 0.945);
+    border-radius: 50%;
+}
+main{
+    width:50%;
+    height: 500px;
+    overflow: hidden;
+    background-color: rgba(65, 50, 50, 0.137);
+
+    display: flex; /* it makes all the contents align */
+    justify-content: center;
+    align-items: center;
+}
+#sec2-container
+{
+    display:flex;
+}
+aside{
+    width:50%;
+    height: 500px;
+    overflow: hidden;
+    background-color: rgb(48, 48, 48);
+    justify-content: space-between;
+    display: flex; /* it makes all the contents align */
+    flex-wrap: nowrap;
+    flex-direction: column;
+   
+}
+aside >.box{
+    height: 150px;
+    background-color:blanchedalmond ;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+   
+}
+.box h1{
+    color: black;
+}
+.rectangle
+{
+    width:25%;
+    height: 500px;
+    overflow: hidden;
+    background-color: rgba(36, 49, 44, 0.521);
+    justify-content: space-between;
+    display: flex; /* it makes all the contents align */
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+#sec3{
+    justify-content: space-between;
+    background-color: bisque;
 }
